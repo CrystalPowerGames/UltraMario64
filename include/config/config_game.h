@@ -43,7 +43,7 @@
 /**
  * Bowser keys always exit the level. Only has an effect if NON_STOP_STARS is enabled.
  */
-// #define KEYS_EXIT_LEVEL
+#define KEYS_EXIT_LEVEL
 
 /**
  * Uncomment this if you want global star IDs (useful for creating an open world hack ala MVC).
@@ -63,12 +63,12 @@
 /**
  * Makes signs and NPCs easier to talk to.
  */
-// #define EASIER_DIALOG_TRIGGER
+#define EASIER_DIALOG_TRIGGER
 
 /**
  * Shows an "A" when Mario is able to talk [requires EASIER_DIALOG_TRIGGER].
  */
-// #define DIALOG_INDICATOR
+#define DIALOG_INDICATOR
 
 /**
  * Include the English characters that were missing from US segment2 and the rumble pak texture if using rumble.
