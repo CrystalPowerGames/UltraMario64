@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "Windows",
             "includePath": [
                 "${workspaceFolder}/include/n64/**",
                 "${workspaceFolder}/include/**",
@@ -27,12 +27,13 @@
                 "F3DEX_GBI_2=1",
                 "F3DZEX_NON_GBI_2=1",
                 "F3DEX_GBI_SHARED=1",
-                "LIBPL=1"
+                "NON_MATCHING=1",
+                "AVOID_UB=1"
             ],
-            "compilerPath": "/usr/bin/mips-linux-gnu-gcc",
+            "compilerPath": "C:/Program Files/LLVM/bin/clang.exe",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",
-            "intelliSenseMode": "linux-gcc-x86"
+            "intelliSenseMode": "windows-gcc-x86"
         }
     ],
     "version": 4
